@@ -166,6 +166,9 @@ span {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  line-height: 1.5;
+  letter-spacing: 1.2;
+  opacity: 90%;
 }
 /* ================SERVICES=============== */
 
@@ -292,6 +295,7 @@ span {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .contact form .input-box input,
@@ -303,6 +307,7 @@ span {
   background: var(--second-bg-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
+  border: none;
 }
 .contact form .input-box input {
   width: 49%;
